@@ -6,10 +6,11 @@ import LearnMoreModal from "./LearnMoreModals";
 import { useHistory } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 export default function MoreCards() {
-  const [data, updateData] = useState(d);
+  const [data] = useState(d);
   $(document).ready(function () {
     $("#anythingSearch").on("keyup", function () {
       var value = $(this).val().toLowerCase();
+      // eslint-disable-next-line array-callback-return
       $("#myDIV div.col-lg-3.col-md-4.col-12").filter(function () {
         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
       });
