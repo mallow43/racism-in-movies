@@ -1,7 +1,7 @@
 import React from "react";
 import { Jumbotron, Button } from "react-bootstrap";
 import HomeCards from "./HomeCards";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 function Home() {
   let history = useHistory();

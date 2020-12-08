@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardDeck, Button } from "react-bootstrap";
+import { Card, CardDeck } from "react-bootstrap";
 
 import d from "../data/data.js";
 import LearnMoreModal from "./LearnMoreModals";
